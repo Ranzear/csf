@@ -1,5 +1,5 @@
-# Name: ...
-# Evergreen Login: ...
+# Name: Royce Jensen
+# Evergreen Login: jenroy30
 # Computer Science Foundations
 # Programming as a Way of Life
 # Homework 1
@@ -42,7 +42,7 @@ print "Problem 2 solution follows:"
 # Import the stuffs and screw namespace
 from hw1_test import *
 
-# Print the stuffs
+# Print the stuffs.
 print(str(a)+'\n'+str(b)+'\n'+str(c)+'\n'+str(d)+'\n'+str(e)+'\n'+str(f))
 
 ###
@@ -51,13 +51,10 @@ print(str(a)+'\n'+str(b)+'\n'+str(c)+'\n'+str(d)+'\n'+str(e)+'\n'+str(f))
 
 print "Problem 3 solution follows:"
 
-
 print(str((a and b) or (not c) and not (d or e or f)))
-
 
 ###
 ### Collaboration
 ###
 
 # ... List your collaborators here, as a comment (on a line starting with "#").
-# Tyler Logan
