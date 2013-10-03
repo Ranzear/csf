@@ -11,47 +11,48 @@
 
 import math                     # makes the math.sqrt function available
 
-
 ###
 ### Problem 1
 ###
 
-print "Problem 1 solution follows:"
-
-# x^2-5.86x+8.5408
-
+# Extract A, B, and C of x^2-5.86x+8.5408
 a = 1
 b = -5.86
 c = 8.5408
 
-# Positive
+# Positive quadratic
 pos = (-b + math.sqrt(b**2 - 4*a*c)) / 2*a
-# Negative
+# Negative quadratic
 neg = (-b - math.sqrt(b**2 - 4*a*c)) / 2*a
 
-sol = str(pos)+', '+str(neg)
+# Solutions rounded to sig figs, to list, to string.
+sol1 = str([round(pos,2), round(neg,2)])
 
-print(sol)
+print "Problem 1 solution follows:"
+print sol1
 
 ###
 ### Problem 2
 ###
 
-print "Problem 2 solution follows:"
-
 # Import the stuffs and screw namespace
 from hw1_test import *
 
-# Print the stuffs.
-print(str(a)+'\n'+str(b)+'\n'+str(c)+'\n'+str(d)+'\n'+str(e)+'\n'+str(f))
+# Concatenate to solution with newlines
+sol2 = str(a)+'\n'+str(b)+'\n'+str(c)+'\n'+str(d)+'\n'+str(e)+'\n'+str(f)
+
+print "\nProblem 2 solution follows:"
+print sol2
 
 ###
 ### Problem 3
 ###
 
-print "Problem 3 solution follows:"
+# Evaluate solution 3
+sol3 = str((a and b) or (not c) and not (d or e or f))
 
-print(str((a and b) or (not c) and not (d or e or f)))
+print "\nProblem 3 solution follows:"
+print sol3
 
 ###
 ### Collaboration
