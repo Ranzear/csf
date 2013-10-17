@@ -1,2 +1,7 @@
 # Graded by Nicholas Mendelson
 # mennic31
+
+import Lab2
+
+for i in range(1,Lab2.n):
+     print 'Hello World \n'
