@@ -110,8 +110,8 @@ for filename in batchlist:
         gc_content = float(g_count+c_count) / total_count
         at_content = float(a_count+t_count) / total_count
 
-        # Calculate GC/AT ratio using valid counts.
-        gc_at_ratio = (g_count+c_count) / (a_count+t_count)
+        # Calculate AT/GC ratio using valid counts.
+        at_gc_ratio = float(a_count+t_count)/float(g_count+c_count)
         
         if gc_content >= 0.6:
             gc_class = 'high GC content'
@@ -131,7 +131,7 @@ for filename in batchlist:
         results += ('Sum count: ' + str(g_count+c_count+a_count+t_count) + '\n')
         results += ('Total count: ' + str(total_count) + '\n')
         results += ('seq length: ' + str(seq_count) + '\n')
-        results += ('GC/AT Ratio: ' + str(gc_at_ratio) + '\n')
+        results += ('AT/GC Ratio: ' + str(at_gc_ratio) + '\n')
         results += ('GC Classification: ' + gc_class + '\n')
 
         if batch:
