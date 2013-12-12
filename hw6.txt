@@ -1,0 +1,8 @@
+You only have to write two questions and send them to your paired team:
+
+Kevin Bedard, bedkev01@evergreen.edu
+Ross Carrigan, carros11@evergreen.edu
+Kevin Kim, kimkev08@evergreen.edu
+
+for hw6. Commit this as hw6-ours.html in your github repo.
+Commit their problems as hw6-theirs.html and your solutions to their problems as hw6.py in your github repo.
